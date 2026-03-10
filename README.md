@@ -179,7 +179,7 @@ echo "SQL запрос: INSERT INTO admins (email, password_hash) VALUES ('admin
 
 Для встроенного PHP-сервера:
 ``` bash
-cd C:\Users\MaxON\OneDrive\Рабочий стол\Диплом\layouts\cinema
+cd \ваш путь до папки\layouts\cinema
 php -S localhost:8000
 ```
 
