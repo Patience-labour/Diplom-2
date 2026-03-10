@@ -145,7 +145,7 @@ INSERT INTO admins (email, password_hash) VALUES
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'cinema_db');
 define('DB_USER', 'root');      // Ваш пользователь MySQL
-define('DB_PASS', '');          // Ваш пароль MySQL
+define('DB_PASS', '');          // Ваш пароль MySQL (123)
 
 define('DEBUG_MODE', true);      // Режим отладки
 
@@ -170,10 +170,12 @@ echo "SQL запрос: INSERT INTO admins (email, password_hash) VALUES ('admin
 Запустите его и выполните полученный SQL запрос.
 
 5. Настройка веб-сервера
-Для OpenServer:
-Разместите проект в папке domains/cinema
-Убедитесь, что используется PHP 8.0+
-Проверьте настройки Apache/Nginx
+
+* Для OpenServer: Разместите проект в папке domains/cinema
+
+* Убедитесь, что используется PHP 8.0+
+
+* Проверьте настройки Apache/Nginx
 
 Для встроенного PHP-сервера:
 ``` bash
@@ -182,6 +184,8 @@ php -S localhost:8000
 ```
 
 6. Проверка работоспособности
-Откройте в браузере http://localhost:8000/client/index.php - клиентская часть
-Откройте http://localhost:8000/admin.php - админ-панель (должен быть редирект на логин)
-Войдите с учетными данными: admin@example.com / 123
+* Откройте в браузере http://localhost:8000/client/index.php - клиентская часть
+
+*Откройте http://localhost:8000/admin.php - админ-панель
+
+*Войдите с учетными данными: admin@example.com / 123
