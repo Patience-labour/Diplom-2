@@ -184,6 +184,6 @@ php -S localhost:8000
 6. Проверка работоспособности
 * Откройте в браузере http://localhost:8000/client/index.php - клиентская часть
 
-*Откройте http://localhost:8000/admin.php - админ-панель
+* Откройте http://localhost:8000/admin.php - админ-панель
 
-*Войдите с учетными данными: admin@example.com / 123
+* Войдите с учетными данными: admin@example.com / 123
